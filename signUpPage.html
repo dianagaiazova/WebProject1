@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+    <title>SneakerSpotlight</title>
+  </head>    
+  <body style="background-color:rgb(208, 237, 199);">
+    
+    <!--A sign up form to recieve more information and regular updates-->
+    <form name ="fname-signup-page-form">
+      <!--Page's main heading -->
+      <h2> If you would like to know more about this topic, sign up for our personalized emails</h2>
+
+      <!--A required input space for the first name, the "First Name" is underlined as one of the project's requirements-->
+      <label for="fname"><u>First Name</u></label>
+      <input type="text" id="fname" name="fname" required><br>
+
+      <!--A required input space for the last name, the "Last Name" is also bold as one of the project's requirements-->
+      <label for="lname"><b>Last Name</b></label>
+      <input type="text" id="lname" name="lname"required><br>
+
+      <!--An required input space for the email, the word "Email" is also highlighted as one of the project's requirements-->
+      <label for="email"><mark>Email</mark><label>
+      <input type="email" id="email" name="email"required><br>
+
+      <!--A calendar type of input to choose the ate of birth, the "Date of Birth" is in Italics as one of the project's requirements-->
+      <label for="birthday"><i>Date of Birth:</i></label>
+      <input type="date" id="birthday" name="birthday"><br>
+
+      <!--A required unput space to create a password, the word "password" is also crossed out as one of the project's requirements-->
+      <label for="pwd"><del>Password:</del></label> 
+      <input type="password" id="pwd" name="pwd" minlength="6" maxlength="16" required><br>
+      <br>
+
+      <!--A required checkbox to agree with the Terms of Service Agreements-->
+      <a href="termsOfAgreements.html" target="_blank"> Click here to view the Terms of Service Agreement </a><br>
+      <input type="checkbox"id="checkbox" name="checkbox"required>
+      <label for="checkbox"> By clicking "I Agree" or by continuing to use Our services, You acknowledge that You have read, understood, and agreed to this Terms of Service Agreement in its entiret</label><br>
+      
+
+      <!--A drop down box asking about how often the user would like to recieve the updates-->
+      <label for="cars">Send me updates: </label>
+      <select name="updates" id="updates">
+        <option value="daily">Daily</option>
+        <option value="twice a week">Twice a Week</option>
+        <option value="once a week">Once a Week</option>
+        <option value="once a month">Once a Month</option>
+      </select>
+
+      <!--A question with checkboxes to personalize the shoe recommendations-->
+      <h4>What type of shoes your interested in? (choose all that apply) </h4>
+
+      <label for="checkbox"> Air Jordans </label>
+      <input type="checkbox" id="checkbox" name="checkbox"><br>
+      
+      <label for="checkbox">Nike Dunks</label>
+      <input type="checkbox"id="checkbox" name="checkbox"><br>
+
+      <label for="checkbox">Yeezys</label>
+      <input type="checkbox"id="checkbox" name="checkbox"><br>
+
+      <label for="checkbox">New Balance</label>
+      <input type="checkbox"id="checkbox" name="checkbox"><br>
+
+      <label for="checkbox">All of the above</label>
+      <input type="checkbox"id="checkbox" name="checkbox"><br>
+
+      <br>
+      <!--Sumbit button to sumbit all the information that has been typed in and send it to the "server"-->
+      <input type="submit" value="Submit"></br>
+
+      <br> 
+      <!--A horizontal line to make the page look more organized-->
+      <hr> 
+      
+      <!--A link that would take the user back to the main page
+      also the center tags to center the link in the middle of the webpage-->
+      <center><a href="index.html">Go Back to The Main Page</a></br></center>
+
+  </body>
+</html>
